@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <h1></h1>
+  <style>
+    * {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:grey;
+  
+}
+
+.ww {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 350px;
+  background-color: #e01212;
+  border-radius: 10px;
+  box-shadow: 1px rgb(218, 15, 15);
+  overflow: hidden;
+}
+
+.fb {
+  
+  background-color: #f11212;
+  color: #1c79ea;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px;
+}
+
+.buttons {
+  
+  
+  gap: 1px;
+  background-color: #121111;
+  box-shadow: 0px 0px 10px 1px;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #e611d4;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+}
+
+
+
+
+button:nth-child(4n) {
+  background-color: #ff9500;
+  color: #092bd1;
+}
+
+button:hover {
+  background-color: #f10ee9;
+}
+.dis{
+    background-color: white;
+    height: 50px;
+    padding-bottom: 10px;
+    text-align: right;
+    border-radius: 10px;
+}
+  </style>
+  
+</head>
+<body>
+    <div>
+
+        <h1 style="text-align: center; color: aqua;">Calculator UI</h1>
+      <div class="ww">
+        <div class="fb"></div>
+        <div class="dis">69+69</div>
+        <div class="buttons">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>/</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>*</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>-</button>
+          <button>0</button>
+          <button>.</button>
+          <button>=</button>
+          <button>+</button>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
